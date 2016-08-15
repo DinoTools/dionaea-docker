@@ -1,6 +1,7 @@
 # What is dionaea?
 
 dionaea is a low interaction honeypot.
+The code from the [official dionaea repository](https://github.com/DinoTools/dionaea) is used to build the service during the image build process.
 
 # How to use this image.
 
@@ -26,3 +27,14 @@ If you don't want to include a `Dockerfile` in your project, it is sufficient to
 ```console
 $ docker run -it --rm -v "$PWD/etc":/opt/dionaea/etc/dionaea dionaea:0.5
 ```
+
+# User Feedback
+
+## Issues
+
+If you have any problems with or questions about this image, please create an [GitHub issue](https://github.com/DinoTools/dionaea-docker/issues).
+
+## Contributing
+
+You are invited to contribute new features, fixes or updates.
+We recommend discussing your ideas through a [GitHub issue](https://github.com/DinoTools/dionaea-docker/issues), before you start.
