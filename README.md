@@ -8,9 +8,9 @@ The code from the [official dionaea repository](https://github.com/DinoTools/dio
 ### Create a `Dockerfile` in your project
 
 ```dockerfile
-FROM dionae:0.5
-COPY conf/your-service.conf /opt/dionaea/etc/dionaea/services/
-COPY conf/your-ihandler.conf /opt/dionaea/etc/dionaea/ihandlers/
+FROM dionae:0.6
+COPY conf/your-service.yaml /opt/dionaea/etc/dionaea/services-enabled/
+COPY conf/your-ihandler.yaml /opt/dionaea/etc/dionaea/ihandlers-enabled/
 ```
 
 Then, run the commands to build and run the Docker image:
