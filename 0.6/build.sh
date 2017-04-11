@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DIONAEA_VERSION=0.5.1
+DIONAEA_VERSION=0.6.0
 
 BUILD_PKGS="autoconf automake build-essential check cython3 libcurl4-openssl-dev libemu-dev libev-dev libglib2.0-dev libloudmouth1-dev libnetfilter-queue-dev libpcap-dev libssl-dev libtool libudns-dev python3-dev wget"
 
